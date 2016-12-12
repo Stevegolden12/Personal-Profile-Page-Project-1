@@ -1,0 +1,155 @@
+body {
+	background: url("light-background.jpg");
+	
+}
+
+
+
+#background-image {
+	width: 99%;
+	height: 250px;
+	left: .5%;
+	top: 7%;
+	position: absolute;
+	z-index: -1;
+}
+	
+.profile-image {
+	border: solid;
+	height: 75px;
+	width: 75px;
+	border-radius: 100%;
+	position: relative;
+	z-index: 0;
+}
+
+.top {	
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	font-family: "Arial", serif;
+	font-size: 1.25em;
+	border: 0;
+}
+
+nav {
+	display: inline;
+	
+}
+
+
+nav ul li {
+	display: inline;
+	list-style: none;
+	float: right;
+	
+}
+
+#navn {
+	float: left;
+	
+}
+
+.navs {
+	float: right;
+	margin: 0 20px;
+	}
+
+.navs:active {
+	color: yellow;
+}
+
+.navs:visited  {
+	color: green;
+	
+}
+
+.basic-information{
+	text-align: center;
+	font-size: 1.75em;
+	padding: 5px 5px;
+	
+}
+
+section{
+	background-color: #aaa;
+	display: inline-block
+}
+
+section h1{
+	text-align: center;
+}
+
+#name{
+	border: solid;
+	background-color: lime;
+	width: 20%;
+	margin-left: 40.5%;
+	list-style: none;
+}
+
+#location{
+	list-style: none;
+	border: solid;
+	background-color: yellow;
+	width: 25%;
+	text-align: center;
+	margin-left: 38%
+}
+
+section.goals ul li {
+	list-style: none;
+	display: inline;
+}
+
+.imgsize {
+	border-radius: 25%;
+	width: 70px;
+	height: 60px;
+	margin: 10px;
+	
+	
+}
+
+.imgsize2 {
+	border-radius: 25%;
+	width: 50px;
+	height: 40px;
+	margin: 0 10px;
+		
+}
+
+.background {
+	width: 45%;
+	margin: 2.5%;
+	float: left;
+	text-align: center;
+	background: url("light-background.jpg");
+}
+
+.goals {
+	width: 45%;
+	margin: 2.5%;
+	float: left;
+	text-align: center;
+	background: url("light-background.jpg");
+}
+
+footer {
+	text-align: center; 
+}
+
+#puppy {
+	width: 500px;
+	height: 500px;
+	position: fixed;
+	left: 33%;
+	top: 30%;
+	
+}
+
+.puppytext {
+	text-align: center;
+	font-family: "Arial", serif;
+	
+}
